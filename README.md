@@ -1,7 +1,5 @@
 ![Pixel Pipeline](Documentation~/Images/banner.webp)
 
-# Pixel Pipeline
-
 Pixel Pipeline turns a regular 3D URP scene into pixel art. The scene is rendered at a low internal
 resolution and upscaled sharply, with outlines, banded lighting, and hard pixel shadows applied on
 top. Your existing URP Lit and Shader Graph materials work as they are.
