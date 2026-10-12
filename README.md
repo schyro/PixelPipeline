@@ -111,4 +111,4 @@ Per-scene values (the current time and the current weather) are on the scene's
 - [Technical reference](Documentation~/TechnicalReference.md) — what each setting changes, how each
   system works, and its limits.
 - [Changelog](CHANGELOG.md)
-- [License](LICENSE.md) — MIT
+- [License](LICENSE) — MIT
