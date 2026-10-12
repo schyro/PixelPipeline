@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_GrassTerrain
+  m_Shader: {fileID: 4800000, guid: 1b513bd40abe4eeb9ad769a8abe74e40, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2:
+        m_Texture: {fileID: 2800000, guid: e0b573a45cfc65d4381a6c575f58256d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise3:
+        m_Texture: {fileID: 2800000, guid: c4c173d4d03b1e14a8213654b0761234, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _Noise2Scale: 0.05
+    - _Noise2Threshold: 0.3
+    - _Noise3Scale: 0.03
+    - _Noise3Threshold: 0.4
+    - _Surface: 0
+    m_Colors:
+    - _BaseColor: {r: 0.47843137, g: 0.61960787, b: 0.3529412, a: 1}
+    - _Color2: {r: 0.5529412, g: 0.70980394, b: 0.35294116, a: 1}
+    - _Color3: {r: 0.2901961, g: 0.43137255, b: 0.16470589, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

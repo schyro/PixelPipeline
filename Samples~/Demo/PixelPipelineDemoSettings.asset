@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c82414dd2a547149c8e18c228e5f336, type: 3}
+  m_Name: PixelPipelineDemoSettings
+  m_EditorClassIdentifier: Assembly-CSharp::PixelPipeline.Runtime.PixelPipelineSettings
+  internalWidth: 960
+  internalHeight: 540
+  matchCameraAspect: 1
+  renderSceneView: 0
+  baseCameraOnly: 1
+  enableOutline: 0
+  lineDarken: 0.45
+  lineAlpha: 1
+  creaseBrighten: 0.4
+  creaseAlpha: 0.8
+  kernelRadius: 0.54
+  depthThreshold: 0.15
+  grazingAngleStart: 0.3
+  grazingDepthScale: 3
+  creaseDepthLow: 0.01
+  creaseDepthHigh: 0.08
+  creaseNormalLow: 0.04
+  creaseNormalHigh: 0.25
+  enableLightBands: 1
+  lightBands: 2
+  lightBandBias: 0.274
+  enablePixelShadows: 1
+  shadowSteps: 1
+  shadowEdgeBias: 0.04
+  shadowEdgeFilter: 2
+  environment:
+    groundHeight: 0
+    wind:
+      direction: {x: 1, y: 0.35}
+      strength: 1.5
+      rainDriftSpeed: 3.5
+    dayNight:
+      enabled: 1
+      advanceInPlayMode: 1
+      startTimeHours: 10
+      dayDurationInSeconds: 180
+      sunriseTime: 6
+      sunsetTime: 18
+      orbitAxisY: -32
+      maxSunIntensity: 1.25
+      maxMoonIntensity: 0.18
+      shadowStrength: 0.72
+      sunHorizonColor: {r: 1, g: 0.48, b: 0.25, a: 1}
+      sunDayColor: {r: 1, g: 0.91, b: 0.76, a: 1}
+      moonHorizonColor: {r: 0.45, g: 0.55, b: 0.8, a: 1}
+      moonZenithColor: {r: 0.68, g: 0.76, b: 1, a: 1}
+      daySkyColor: {r: 0.58, g: 0.68, b: 0.74, a: 1}
+      dayEquatorColor: {r: 0.38, g: 0.42, b: 0.38, a: 1}
+      dayGroundColor: {r: 0.2, g: 0.22, b: 0.18, a: 1}
+      nightSkyColor: {r: 0.055, g: 0.075, b: 0.15, a: 1}
+      nightEquatorColor: {r: 0.07, g: 0.085, b: 0.13, a: 1}
+      nightGroundColor: {r: 0.025, g: 0.03, b: 0.055, a: 1}
+      dayCameraColor: {r: 0.53, g: 0.68, b: 0.75, a: 1}
+      nightCameraColor: {r: 0.025, g: 0.04, b: 0.095, a: 1}
+    weather:
+      initialWeather: 0
+      sunnyCloudCoverage: 0.15
+      cloudyCloudCoverage: 0.58
+      rainCloudCoverage: 0.902
+      cloudBuildSeconds: 18
+      cloudDisperseSeconds: 24
+      rainStartCloudCoverage: 0.72
+      rainFadeInSeconds: 5
+      rainFadeOutSeconds: 4
+      sunnySunIntensity: 1
+      cloudySunIntensity: 0.72
+      rainSunIntensity: 0.42
+      sunnyAmbientIntensity: 1
+      cloudyAmbientIntensity: 0.88
+      rainAmbientIntensity: 0.68
+      sunnyGodRayIntensity: 0.15
+      cloudyGodRayIntensity: 1
+      rainGodRayIntensity: 0.25
+    clouds:
+      enabled: 1
+      noise: {fileID: 2800000, guid: cee53cd6511a3eb4f92abe1a9d1e69c0, type: 3}
+      scale: 45
+      worldHeight: 20
+      speed: 0.01
+      contrast: 4
+      threshold: 0.485
+      coverageInfluence: 0.479
+      projectionDirection: {x: 0.2, y: -1, z: 0.2}
+      shadowMinimum: 0
+      shadowStrength: 0.773
+      divergenceAngle: 10
+      power: 3.5
+      shadowSteps: 4
+    godRays:
+      enabled: 1
+      color: {r: 1, g: 0.9, b: 0.72, a: 1}
+      intensity: 0.8
+      gapSize: 7
+      gapThreshold: 0.12
+      gapSoftness: 0.25
+      topHeight: 14
+      topFade: 0.6
+      groundFade: 2
+      hazeFalloff: 12
+      density: 0.3
+      areaRadius: 14
+      occlusion: 1
+      steps: 20
+      bands: 3
+      dither: 0.35
+      minimumSunHeight: 0.2
+      sunFadeRange: 0.15
+    windStreaks:
+      enabled: 1
+      material: {fileID: 2100000, guid: 1f997d211ba1e5c4fb44416f8b9c4a94, type: 2}
+      maximumStreaks: 12
+      countWindResponse: 0.75
+      followCamera: 1
+      areaSize: {x: 26, y: 26}
+      heightRange: {x: 0.35, y: 4.5}
+      speed: 5
+      speedVariance: 0.35
+      lifetimeMinimum: 2.2
+      lifetimeMaximum: 3.2
+      lifeFade: 0.5
+      minimumWindStrength: 0
+      windFadeRange: 0.35
+      lengthMinimum: 1.3
+      lengthMaximum: 8
+      widthMinimum: 0.035
+      widthMaximum: 0.08
+      tailWidthScale: 0.15
+      segments: 10
+      curveAmplitude: 0.22
+      curveFrequency: 0.38
+      curveScrollSpeed: 0.35
+      curveVertical: 0.44
+      color: {r: 0.56079084, g: 0.6201687, b: 0.6597539, a: 0.55}
+      intensity: 1
+      headFade: 0.06
+      tailFade: 0.6
+      edgeSoftness: 1
+      alphaSteps: 0
+      lightResponse: 1
+    rain:
+      dropMaterial: {fileID: 2100000, guid: 5b828beeb94c48f4b6f09d743c1b7508, type: 2}
+      dropsPerSecond: 360
+      fallHeight: 12
+      speedMinimum: 10
+      speedMaximum: 13
+      widthMinimum: 0.035
+      widthMaximum: 0.055
+      length: 0.95
+      lightResponse: 1
+      areaSize: 24
+      impacts: 1
+      occlusionResolution: 512
+      occlusionDepthRange: 40
+      occlusionLayers:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      splashMaterial: {fileID: 2100000, guid: 97797febc5defe941a6d5933449f4a0f, type: 2}
+      splashLifetime: 0.3
+      splashSizeMinimum: 0.16
+      splashSizeMaximum: 0.26
+      ringWidth: 0.16
+      minimumUpFacing: 0.55
+      splashColor: {r: 0.86, g: 0.94, b: 1, a: 0.9}
+  water:
+    enableWater: 1
+    shallowColor: {r: 0.2, g: 0.5, b: 0.52, a: 1}
+    deepColor: {r: 0.05, g: 0.15, b: 0.3, a: 1}
+    depthDistance: 0.9
+    colorSteps: 4
+    shallowOpacity: 0.45
+    deepOpacity: 0.95
+    shadowStrength: 0.85
+    enableRefraction: 1
+    refractionStrength: 0.014
+    refractionDepthFade: 0.35
+    enablePattern: 1
+    patternColor: {r: 0.55, g: 0.78, b: 0.8, a: 0.65}
+    patternScale: 0.55
+    patternLineWidth: 1
+    patternFlowSpeed: 0.08
+    patternMorphSpeed: 0.6
+    patternWarp: 0.9
+    patternCoverage: 0.45
+    patternBreakupScale: 1.3
+    enableShoreFoam: 1
+    shoreFoamColor: {r: 0.72, g: 0.8, b: 0.8, a: 1}
+    shoreFoamWidth: 0.06
+    shoreFoamNoiseScale: 9.5
+    shoreFoamNoiseAmount: 0.5
+    shoreFoamLapSpeed: 1.1
+    shoreFoamLapAmount: 0.1
+    shoreRippleSpacing: 0.09
+    shoreRippleSpeed: 0.05
+    shoreRippleRange: 0.15
+    shoreRippleWidth: 1
+    enableGlints: 1
+    glintStrength: 0.9
+    glintThreshold: 0.2
+    glintCellSize: 0.3
+    glintDensity: 0.3
+    glintSpeed: 1.5
+    waveHeight: 0.025
+    waveLength: 2.2
+    waveSpeed: 0.5
+    waveChoppiness: 0.45
+    waveNormalStrength: 2.5
+    enablePlanarReflection: 0
+    reflectionResolutionScale: 1
+    reflectionLayers:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    reflectionCastsShadows: 1
+    reflectionClipsBelowSurface: 1
+    reflectionPlaneOffset: 0.01
+    reflectionStrength: 0.45
+    reflectionFlatness: 0.5
+    reflectionFresnelPower: 4
+    reflectionDistortion: 0.006

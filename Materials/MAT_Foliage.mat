@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Foliage
+  m_Shader: {fileID: 4800000, guid: 65c396dd356f8ef42bbe265111cb3864, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeafTexture:
+        m_Texture: {fileID: 2800000, guid: 9dbc17821c36edb448a9c87458a78a18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2:
+        m_Texture: {fileID: 2800000, guid: e0b573a45cfc65d4381a6c575f58256d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise3:
+        m_Texture: {fileID: 2800000, guid: c4c173d4d03b1e14a8213654b0761234, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoise:
+        m_Texture: {fileID: 2800000, guid: de3e46eec33321e4c83f734354e6a3e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CardRotationJitter: 180
+    - _CardSizeScale: 1
+    - _ColorVariation: 0.06
+    - _Cutoff: 0.5
+    - _Cuts: 3
+    - _FlutterSpeed: 3.5
+    - _FlutterStrength: 0.025
+    - _InnerDarkness: 0.45
+    - _Noise2Scale: 0.12
+    - _Noise2Threshold: 0.55
+    - _Noise3Scale: 0.08
+    - _Noise3Threshold: 0.6
+    - _OutlineExclude: 0
+    - _ShadowSampleOffset: 0.2
+    - _Steepness: 1.2
+    - _TextureDetail: 0.35
+    - _WindNoiseScale: 0.07
+    - _WindNoiseSpeed: 0.05
+    - _WindSway: 0.08
+    - _Wrap: 0.2
+    m_Colors:
+    - _BaseColor: {r: 0.35999998, g: 0.54999995, b: 0.24999997, a: 1}
+    - _Color2: {r: 0.45, g: 0.63, b: 0.26999995, a: 1}
+    - _Color3: {r: 0.25999996, g: 0.41999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

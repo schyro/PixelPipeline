@@ -1,0 +1,29 @@
+{
+  "name": "com.schyro.pixel-pipeline",
+  "version": "0.1.0",
+  "displayName": "Pixel Pipeline",
+  "description": "Pixel-art rendering for URP on PC: a Render Graph downsample and sharp upscale, outlines, banded lighting and pixel-quantised shadows, day/night and weather, cloud shadows, god rays, rain, wind streaks, instanced grass, tree foliage, and stylised water.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "keywords": [
+    "pixel art",
+    "urp",
+    "render graph",
+    "stylized",
+    "rendering"
+  ],
+  "author": {
+    "name": "Serkan Yalnız"
+  },
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "com.unity.inputsystem": "1.19.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A forest diorama scene with its own settings asset: the day/night cycle, weather, cloud shadows, god rays, rain, outlines, instanced grass, tree foliage, and water.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
